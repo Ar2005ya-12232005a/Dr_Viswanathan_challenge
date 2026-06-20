@@ -19,7 +19,7 @@ struct TreeNode{
 
 
     int maxDepth(TreeNode* root) {
-        if(root == nullptr)
+        if(root == NULL)
             return 0;
 
         int leftDepth = maxDepth(root->left);
