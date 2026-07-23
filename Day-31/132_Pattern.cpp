@@ -1,6 +1,8 @@
+#include <bits/stdc++.h>
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <utility>
 using namespace std;
 
 bool find132pattern(vector<int>& nums) {
